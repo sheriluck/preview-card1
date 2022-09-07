@@ -1,0 +1,39 @@
+/* .attribution { font-size: 11px; text-align: center; } */
+    /* .attribution a { color: hsl(228, 45%, 44%); } */
+    /* font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        font-family: 'Montserrat', sans-serif;;
+        background-color:  hsl(30, 38%, 92%);
+        font-size: 14px;
+    }
+    .container{
+        margin: 30px auto;
+        padding: 0 30px;
+    }
+    .grid{
+        max-width:700px;
+        display: grid;
+        grid-column: 1fr 1fr;
+        background-color: white; 
+        border-radius: 15px; 
+        overflow: hidden; 
+    }
+    
+.img img{
+    max-width: 100%;
+}
+
+
+
